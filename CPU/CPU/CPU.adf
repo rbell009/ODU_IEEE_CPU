@@ -27,15 +27,20 @@ ON_SERVERFARM_SIM=0
 [IMPLEMENTATION]
 UCF=
 
+[Groups]
+DecodeReg=1
+
 [Files]
 /InstructFetch.vhd=-1
 DecodeReg/RegisterFile.vhd=-1
 
 [Files.Data]
 .\src\InstructFetch.vhd=VHDL Source Code
-.\src\RegisterFile.vhd=VHDL Source Code
 .\src\DecodeReg\RegisterFile.vhd=VHDL Source Code
 
-[Groups]
-DecodeReg=1
-
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

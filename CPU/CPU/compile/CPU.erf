@@ -1,4 +1,5 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
 MESSAGE "File: C:/Users/Ryan/Desktop/Side Projects/CPU/CPU/CPU/src/DecodeReg/RegisterFile.vhd" 
 MESSAGE "Compile Entity "registerFile"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]" 
+MESSAGE "Compile Architecture "behaveReg" of Entity "registerFile"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]" 

@@ -1,17 +1,36 @@
-timestamp=1678864140592
+timestamp=1678905598434
 
 [~A]
-ModifyID=1
+ModifyID=3
 Version=74
 
 [~MFT]
-0=4|0CPU.mgf|909|0
+0=3|0CPU.mgf|7549|1152
+1=1|1CPU.mgf|1173|0
+3=1|3CPU.mgf|237|0
+
+[instructionfetch]
+A/behaveif=A/behaveIF 21|../src/InstructFetch.vhd|23|1*0
+BinI32/behaveif=3*0
+I=0*1822
+I/behaveif=I/behaveIF 0*2457
+M=11|0|ve8|1678905446266|../src/InstructFetch.vhd|0*1370*0x61eeacf53ae01ddf0fab95996f516e41a8997067|0*1728*0xd986fd7175c8cf28cd774bcadde79966
+M/behaveif=M/behaveIF 21|0|ve8|1678905446268|../src/InstructFetch.vhd|0*2069*0x775f46a8d80205535503dbe7f007e627b4389c42|0*2351*0xb966535deb9617f745ced53ae4cc1a7f
+R=../src/InstructFetch.vhd|14
+Version=12.0.118.7745 (Windows)|00000009789cd3f53756d0353230b00000090c01c7|5e7c45779c57f8522d6767cf5c3cf1b47b8e456790017f73a533bc13f0d3143168520c1281d4484a42d9ba7970896ef0
+Version/behaveif=12.0.118.7745 (Windows)|00000009789cd3f53756d0353230b00000090c01c7|23bec405ccce74b29fad5e65537a4a876b143096d3c51d0a9c6fa1cf847b2f86a31a7373c30e81c2cb9517afddb85bb6
 
 [registerfile]
-I=0*909
-M=11|0|ve8|1678864140590|../src/DecodeReg/RegisterFile.vhd|0*248*0xabb5acadeae6828609eca4fa4a39f33b28df83d0|0*810*0xd986fd7175c8cf28cd774bcadde79966
+A/behavereg=A/behaveReg 21|../src/DecodeReg/RegisterFile.vhd|35|1*1173
+BinI32/behavereg=3*237
+I=0*3583
+I/behavereg=I/behaveReg 0*7549
+M=11|0|ve8|1678905446307|../src/DecodeReg/RegisterFile.vhd|0*2958*0xe73572a9b1c5c198a4c4f0d0f30acb390e0407dd|0*3484*0xd986fd7175c8cf28cd774bcadde79966
+M/behavereg=M/behaveReg 21|0|ve8|1678905598396|../src/DecodeReg/RegisterFile.vhd|0*3826*0x829788c618d4aa84dd3069b270b317dbe64573d7|0*7437*0xb966535deb9617f745ced53ae4cc1a7f
 R=../src/DecodeReg/RegisterFile.vhd|21
-Version=12.0.118.7745 (Windows)|00000009789cd3f53756d0353230b00000090c01c7|38db9fa1fe03d50fc5439456f1e680f15f792adacedd7e3de6b5acf8d6dd8ce789d9c8d8aea41e89104bfc63115b760a
+Version=12.0.118.7745 (Windows)|00000009789cd3f53756d0353230b00000090c01c7|38db9fa1fe03d50fc5439456f1e680f15f792adacedd7e3de6b5acf8d6dd8ce7af2dbe4897b038bce27efac75ef77149
+Version/behavereg=12.0.118.7745 (Windows)|00000009789cd3f53756d0353230b00000090c01c7|3c70eda01c14ded70eea6decd2ae9021afe0f40a19f3007180ac486fe11c069c05c662c502980aa226b61e49b6737bdd
 
 [~U]
-registerfile=registerFile 11|0*0|
+instructionfetch=InstructionFetch 11|0*1152|
+registerfile=registerFile 11|0*2713|

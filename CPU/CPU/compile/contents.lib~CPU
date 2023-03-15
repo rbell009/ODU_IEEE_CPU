@@ -1,2 +1,5 @@
-1
+3
+~E 1 "../src/InstructFetch.vhd" 14 InstructionFetch
+~A 1 "../src/InstructFetch.vhd" 23 behaveIF
 ~E 1 "../src/DecodeReg/RegisterFile.vhd" 21 registerFile
+~A 1 "../src/DecodeReg/RegisterFile.vhd" 35 behaveReg

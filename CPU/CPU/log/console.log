@@ -1,0 +1,85 @@
+acom -O3 -e 100 -work CPU -2008  $dsn/src/InstructFetch.vhd $dsn/src/DecodeReg/RegisterFile.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Ryan/Desktop/Side Projects/CPU/CPU/CPU/src/InstructFetch.vhd
+# Compile Entity "InstructionFetch"
+# Compile Architecture "behaveIF" of Entity "InstructionFetch"
+# File: C:/Users/Ryan/Desktop/Side Projects/CPU/CPU/CPU/src/DecodeReg/RegisterFile.vhd
+# Compile Entity "registerFile"
+# Compile Architecture "behaveReg" of Entity "registerFile"
+# Error: COMP96_0026: DecodeReg/RegisterFile.vhd : (37, 24): Type definition expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (63, 6): Keyword 'is' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (65, 6): Keyword 'end' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (71, 6): Keyword 'end' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (77, 6): Keyword 'end' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (80, 7): Keyword 'end' expected.
+# Error: COMP96_0016: DecodeReg/RegisterFile.vhd : (81, 8): Design unit declaration expected.
+# Error: COMP96_0018: DecodeReg/RegisterFile.vhd : (174, 17): Identifier expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work CPU -2008  $dsn/src/DecodeReg/RegisterFile.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Ryan/Desktop/Side Projects/CPU/CPU/CPU/src/DecodeReg/RegisterFile.vhd
+# Compile Entity "registerFile"
+# Compile Architecture "behaveReg" of Entity "registerFile"
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (62, 6): Keyword 'is' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (64, 6): Keyword 'end' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (70, 6): Keyword 'end' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (76, 6): Keyword 'end' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (79, 7): Keyword 'end' expected.
+# Error: COMP96_0016: DecodeReg/RegisterFile.vhd : (80, 8): Design unit declaration expected.
+# Error: COMP96_0018: DecodeReg/RegisterFile.vhd : (173, 17): Identifier expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work CPU -2008  $dsn/src/DecodeReg/RegisterFile.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Ryan/Desktop/Side Projects/CPU/CPU/CPU/src/DecodeReg/RegisterFile.vhd
+# Compile Entity "registerFile"
+# Compile Architecture "behaveReg" of Entity "registerFile"
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (102, 5): Keyword 'is' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (105, 5): Keyword 'end' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (117, 5): Keyword 'end' expected.
+# Error: COMP96_0019: DecodeReg/RegisterFile.vhd : (120, 6): Keyword 'end' expected.
+# Error: COMP96_0016: DecodeReg/RegisterFile.vhd : (121, 7): Design unit declaration expected.
+# Error: COMP96_0018: DecodeReg/RegisterFile.vhd : (173, 17): Identifier expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work CPU -2008  $dsn/src/DecodeReg/RegisterFile.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Ryan/Desktop/Side Projects/CPU/CPU/CPU/src/DecodeReg/RegisterFile.vhd
+# Compile Entity "registerFile"
+# Compile Architecture "behaveReg" of Entity "registerFile"
+# Error: COMP96_0123: DecodeReg/RegisterFile.vhd : (63, 7): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: DecodeReg/RegisterFile.vhd : (63, 7): Object "mainRegs" cannot be written.
+# Error: COMP96_0263: DecodeReg/RegisterFile.vhd : (63, 7): Type names are not allowed as primaries.
+# Error: COMP96_0123: DecodeReg/RegisterFile.vhd : (66, 8): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: DecodeReg/RegisterFile.vhd : (66, 8): Object "mainRegs" cannot be written.
+# Error: COMP96_0263: DecodeReg/RegisterFile.vhd : (66, 8): Type names are not allowed as primaries.
+# Error: COMP96_0123: DecodeReg/RegisterFile.vhd : (72, 8): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: DecodeReg/RegisterFile.vhd : (72, 8): Object "mainRegs" cannot be written.
+# Error: COMP96_0263: DecodeReg/RegisterFile.vhd : (72, 8): Type names are not allowed as primaries.
+# Error: COMP96_0123: DecodeReg/RegisterFile.vhd : (78, 8): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: DecodeReg/RegisterFile.vhd : (78, 8): Object "mainRegs" cannot be written.
+# Error: COMP96_0263: DecodeReg/RegisterFile.vhd : (78, 8): Type names are not allowed as primaries.
+# Error: COMP96_0123: DecodeReg/RegisterFile.vhd : (84, 8): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: DecodeReg/RegisterFile.vhd : (84, 8): Object "mainRegs" cannot be written.
+# Error: COMP96_0263: DecodeReg/RegisterFile.vhd : (84, 8): Type names are not allowed as primaries.
+# Error: COMP96_0123: DecodeReg/RegisterFile.vhd : (90, 8): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: DecodeReg/RegisterFile.vhd : (90, 8): Object "mainRegs" cannot be written.
+# Error: COMP96_0263: DecodeReg/RegisterFile.vhd : (90, 8): Type names are not allowed as primaries.
+# Error: COMP96_0123: DecodeReg/RegisterFile.vhd : (95, 7): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: DecodeReg/RegisterFile.vhd : (95, 7): Object "mainRegs" cannot be written.
+# Error: COMP96_0263: DecodeReg/RegisterFile.vhd : (95, 7): Type names are not allowed as primaries.
+# Error: COMP96_0149: DecodeReg/RegisterFile.vhd : (103, 25): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0077: DecodeReg/RegisterFile.vhd : (103, 16): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0149: DecodeReg/RegisterFile.vhd : (104, 25): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0077: DecodeReg/RegisterFile.vhd : (104, 16): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0149: DecodeReg/RegisterFile.vhd : (107, 26): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0077: DecodeReg/RegisterFile.vhd : (107, 17): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0149: DecodeReg/RegisterFile.vhd : (113, 26): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0077: DecodeReg/RegisterFile.vhd : (113, 17): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0149: DecodeReg/RegisterFile.vhd : (119, 26): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0077: DecodeReg/RegisterFile.vhd : (119, 17): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0149: DecodeReg/RegisterFile.vhd : (125, 26): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0077: DecodeReg/RegisterFile.vhd : (125, 17): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0149: DecodeReg/RegisterFile.vhd : (131, 26): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0077: DecodeReg/RegisterFile.vhd : (131, 17): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0149: DecodeReg/RegisterFile.vhd : (137, 26): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0077: DecodeReg/RegisterFile.vhd : (137, 17): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0149: DecodeReg/RegisterFile.vhd : (143, 26): Explicit type conversions are allowed betw
