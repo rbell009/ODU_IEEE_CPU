@@ -10,7 +10,8 @@
 --    the ARM Architecture Reference Manual.		--
 --	* We will be opting for write back occuring in  --
 --	  the rising edge, while reading of registers   --
---	  will occur in the falling edge.
+--	  will occur in the falling edge.				--
+--	*
 --==================================================--
 
 library ieee;
@@ -27,7 +28,6 @@ entity registerFile is
 		regW	:	in std_logic;
 		wData	:	in std_logic_vector(31 downto 0);
 		mode	:	in std_logic_vector(4 downto 0);
-		regPC	:	in std_logic_vector(31 downto 0);
 		readD1	:	out std_logic_vector(31 downto 0);
 		readD2	:	out std_logic_vector(31 downto 0)
 	);
