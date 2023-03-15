@@ -1,0 +1,41 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=CPU
+
+[Library]
+CPU=.\CPU\CPU.lib
+
+[$LibMap$]
+CPU=.
+Active_lib=
+
+[Settings]
+RUN_MODE_SYNTH=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/InstructFetch.vhd=-1
+DecodeReg/RegisterFile.vhd=-1
+
+[Files.Data]
+.\src\InstructFetch.vhd=VHDL Source Code
+.\src\RegisterFile.vhd=VHDL Source Code
+.\src\DecodeReg\RegisterFile.vhd=VHDL Source Code
+
+[Groups]
+DecodeReg=1
+
